@@ -31,3 +31,7 @@ Grades: 91, 89, 92, 93
 //Create a method for the object classOf1A named retrieveHonorStudentInfo() that will return all honor students' emails and ave. grades as an array of objects.
 
 //Create a method for the object classOf1A named sortHonorStudentsByGradeDesc() that will return all honor students' emails and ave. grades as an array of objects sorted in descending order based on their grade averages.
+
+
+/*********************************SOLUTION*********************************/
+
