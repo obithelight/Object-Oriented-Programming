@@ -40,3 +40,11 @@ let studentOne = {
 	email: "john@mail.com",
 	grades: [89, 84, 78, 88],
 
+	login(){
+		console.log(`${this.email} has logged in.`)
+	},
+
+
+
+
+
