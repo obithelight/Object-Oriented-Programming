@@ -35,3 +35,8 @@ Grades: 91, 89, 92, 93
 
 /*********************************SOLUTION*********************************/
 
+let studentOne = {
+	name: "John",
+	email: "john@mail.com",
+	grades: [89, 84, 78, 88],
+
