@@ -58,6 +58,10 @@ let studentOne = {
 		return sum/4
 	},
 
+	willPass(){
+		return this.computeAve() >= 85 ? true : false;
+	},
+
 
 
 
