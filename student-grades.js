@@ -48,6 +48,10 @@ let studentOne = {
 		console.log(`${this.email} has logged out.`)
 	},
 
+	listGrades(){
+		console.log(`${this.name}'s quarterly averages are: ${this.grades}`)
+	},
+
 
 
 
