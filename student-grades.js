@@ -73,6 +73,11 @@ let studentOne = {
 	}
 }
 
+let studentTwo = {
+	name: "Joe",
+	email: "joe@mail.com",
+	grades: [78, 82, 79, 85],
+
 
 
 
