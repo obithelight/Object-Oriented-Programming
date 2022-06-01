@@ -111,6 +111,11 @@ let studentTwo = {
 	}
 }
 
+let studentThree = {
+	name: "Jane",
+	email: "jane@mail.com",
+	grades: [87, 89, 91, 93],
+
 
 
 
