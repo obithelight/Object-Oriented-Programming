@@ -138,6 +138,17 @@ let studentThree = {
 		return this.computeAve() >= 85 ? true : false;
 	},
 
+	willPassWithHonors(){
+		if(this.computeAve() >= 90){
+			return true
+		}else if(this.computeAve() < 90 && this.computeAve() >= 85){
+			return false
+		}else if(this.computeAve() < 85){
+			return undefined
+		}
+	}
+}
+
 
 
 
