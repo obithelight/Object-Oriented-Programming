@@ -203,6 +203,8 @@ const classOf1A = {
 
 	honorsPercentage(){
 		let percentage = (this.countHonorStudents() / this.students.length) * 100;
+		return `${percentage}%`
+	},
 
 
 
