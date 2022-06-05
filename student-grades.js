@@ -172,6 +172,21 @@ let studentFour = {
 		return sum/4
 	},
 
+	willPass(){
+		return this.computeAve() >= 85 ? true : false;
+	},
+
+	willPassWithHonors(){
+		if(this.computeAve() >= 90){
+			return true
+		}else if(this.computeAve() < 90 && this.computeAve() >= 85){
+			return false
+		}else if(this.computeAve() < 85){
+			return undefined
+		}
+	}
+}
+
 
 
 
