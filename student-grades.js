@@ -166,7 +166,12 @@ let studentFour = {
 		console.log(`${this.name}'s quarterly averages are: ${this.grades}`)
 	},
 
-	
+	computeAve(){
+		let sum = 0
+		this.grades.forEach(grade => sum = sum + grade)
+		return sum/4
+	},
+
 
 
 
