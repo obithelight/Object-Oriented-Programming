@@ -192,6 +192,12 @@ const classOf1A = {
 	countHonorStudents(){
 		let result = 0
 
+		this.students.forEach(student => {
+			if(student.willPassWithHonors()){
+				result++
+			}
+		})
+
 
 
 
