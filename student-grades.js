@@ -187,6 +187,11 @@ let studentFour = {
 	}
 }
 
+const classOf1A = {
+	students: [studentOne, studentTwo, studentThree, studentFour],
+	countHonorStudents(){
+		let result = 0
+
 
 
 
