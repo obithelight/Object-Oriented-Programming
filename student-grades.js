@@ -209,7 +209,15 @@ const classOf1A = {
 	retrieveHonorStudentInfo(){
 		let honorStudents = []
 
-		
+		this.students.forEach(student => {
+			if(student.willPassWithHonors()){
+				honorStudents.push({
+					email: student.email,
+					aveGrade: student.computeAve()
+				})
+			}
+		})
+
 
 
 
