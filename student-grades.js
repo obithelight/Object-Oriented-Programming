@@ -206,6 +206,10 @@ const classOf1A = {
 		return `${percentage}%`
 	},
 
+	retrieveHonorStudentInfo(){
+		let honorStudents = []
+
+		
 
 
 
