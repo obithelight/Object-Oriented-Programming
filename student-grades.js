@@ -221,6 +221,11 @@ const classOf1A = {
 		return honorStudents
 	},
 
+	sortHonorStudentsByGradeDesc(){
+		return this.retrieveHonorStudentInfo().sort((studentA, studentB) => {
+			return studentB.aveGrade - studentA.aveGrade
+		})
+
 
 
 
