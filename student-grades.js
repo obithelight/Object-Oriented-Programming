@@ -218,6 +218,9 @@ const classOf1A = {
 			}
 		})
 
+		return honorStudents
+	},
+
 
 
 
