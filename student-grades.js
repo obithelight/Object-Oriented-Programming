@@ -226,6 +226,10 @@ const classOf1A = {
 			return studentB.aveGrade - studentA.aveGrade
 		})
 
+		return this.retrieveHonorStudentInfo()
+	}
+}
+
 
 
 
