@@ -15,3 +15,6 @@ Name: Jessie
 Email: jessie@mail.com
 Grades: 91, 89, 92, 93
 */
+
+//Define a method for EACH student object that will compute for their grade average (total of grades divided by 4).
+
