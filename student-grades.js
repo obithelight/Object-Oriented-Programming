@@ -25,3 +25,5 @@ Grades: 91, 89, 92, 93
 //Create an object named classOf1A with a property named students which is an array containing all 4 student objects in it.
 
 //Create a method for the object classOf1A named countHonorStudents() that will return the number of honor students.
+
+//Create a method for the object classOf1A named honorsPercentage() that will return the % of honor students from the batch's total number of students.
