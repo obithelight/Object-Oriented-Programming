@@ -4,3 +4,8 @@ Create a function named addToEnd that will add a passed in string to the end of 
 
 let students = ["John", "Joe", "Jane", "Jessie"] 
 
+const addToEnd = (string, array) => {
+	if(typeof string !== "string"){
+		console.log("error - can only add strings to an array")
+	}else{
+		array.push(string)
