@@ -16,3 +16,4 @@ const addToEnd = (string, array) => {
       break;
   }
 }
+console.log(addToEnd("Mark", students))
