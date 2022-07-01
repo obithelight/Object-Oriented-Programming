@@ -3,3 +3,5 @@ Create a function named addToEnd that will add a passed in string to the end of 
 */
 
 //SWITCH STATEMENT
+let students = ["John", "Joe", "Jane", "Jessie"];
+
