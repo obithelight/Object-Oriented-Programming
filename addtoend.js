@@ -19,4 +19,5 @@ const addToEnd = (string, array) => {
 console.log(addToEnd("Mark", students))
 
 //IF STATEMENT
+let students = ["John", "Joe", "Jane", "Jessie"];
 
