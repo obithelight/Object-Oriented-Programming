@@ -21,3 +21,11 @@ console.log(addToEnd("Mark", students))
 //IF STATEMENT
 let students = ["John", "Joe", "Jane", "Jessie"];
 
+const addToEnd = (string, array) => {
+  if (typeof string !== "string") {
+    return "error - can only add strings to an array";
+  } else {
+    array.push(string);
+    return array;
+  }
+};
