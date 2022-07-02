@@ -29,3 +29,4 @@ const addToEnd = (string, array) => {
     return array;
   }
 };
+console.log(addToEnd("Mark", students));
