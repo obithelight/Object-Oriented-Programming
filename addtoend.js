@@ -6,17 +6,17 @@ Create a function named addToEnd that will add a passed in string to the end of 
 let students = ["John", "Joe", "Jane", "Jessie"];
 
 const addToEnd = (string, array) => {
-  switch(typeof string !== 'string'){
+  switch (typeof string !== "string") {
     case 1:
-      return "error - can only add strings to an array"
+      return "error - can only add strings to an array";
       break;
     default:
-      array.push(string)
-      return array
+      array.push(string);
+      return array;
       break;
   }
-}
-console.log(addToEnd("Mark", students))
+};
+console.log(addToEnd("Mark", students));
 
 //IF STATEMENT
 let students = ["John", "Joe", "Jane", "Jessie"];
