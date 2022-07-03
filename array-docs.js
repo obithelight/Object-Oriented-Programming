@@ -10,3 +10,6 @@
 //4. What array method searches for, and returns the index of a given value in an array? This method returns -1 if given value is not found in the array.
 //indexOf()
 
+//5. What array method loops over all elements of an array, performing a user-defined function on each iteration?
+//forEach()
+
