@@ -7,3 +7,6 @@
 //3. How do you access the last character of an array?
 //arrayName[arrayName.length-1]
 
+//4. What array method searches for, and returns the index of a given value in an array? This method returns -1 if given value is not found in the array.
+//indexOf()
+
