@@ -13,3 +13,6 @@
 //5. What array method loops over all elements of an array, performing a user-defined function on each iteration?
 //forEach()
 
+//6. What array method creates a new array with elements obtained from a user-defined function?
+//map()
+
