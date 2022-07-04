@@ -19,3 +19,6 @@
 //7. What array method checks if all its elements satisfy a given condition?
 //every()
 
+//8. What array method checks if at least one of its elements satisfies a given condition?
+//some()
+
