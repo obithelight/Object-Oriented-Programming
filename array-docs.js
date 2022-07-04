@@ -16,3 +16,6 @@
 //6. What array method creates a new array with elements obtained from a user-defined function?
 //map()
 
+//7. What array method checks if all its elements satisfy a given condition?
+//every()
+
