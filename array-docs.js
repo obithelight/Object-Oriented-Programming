@@ -26,3 +26,6 @@
 //9. array.splice() modifies a copy of the array, leaving the original unchanged.
 //False
 
+//True or False: 
+//10. array.slice() copies elements from original array and returns them as a new array.
+//True
