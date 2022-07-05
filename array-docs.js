@@ -22,3 +22,7 @@
 //8. What array method checks if at least one of its elements satisfies a given condition?
 //some()
 
+//True or False: 
+//9. array.splice() modifies a copy of the array, leaving the original unchanged.
+//False
+
