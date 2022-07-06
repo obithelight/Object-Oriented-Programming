@@ -16,3 +16,5 @@ const addToStart = (string, array) => {
 console.log(addToStart("Tess", students));
 
 //SWITCH STATEMENT
+let students = ["Ada", "Amaka", "Amanda", "Amara"];
+
