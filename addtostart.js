@@ -14,3 +14,5 @@ const addToStart = (string, array) => {
   }
 };
 console.log(addToStart("Tess", students));
+
+//SWITCH STATEMENT
