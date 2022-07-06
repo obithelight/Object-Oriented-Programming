@@ -3,3 +3,11 @@ Create a function named addToStart that will add a passed in string to the start
 */
 
 let students = ["Ada", "Amaka", "Amanda", "Amara"];
+const addToStart = (string, array) => {
+  if (typeof string !== "string") {
+    return "error - can only add strings to an array";
+  } else {
+    array.unshift(string);
+    return array;
+  }
+};
