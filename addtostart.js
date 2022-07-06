@@ -18,3 +18,14 @@ console.log(addToStart("Tess", students));
 //SWITCH STATEMENT
 let students = ["Ada", "Amaka", "Amanda", "Amara"];
 
+const addToStart = (string, array) => {
+  switch (typeof string !== "string") {
+    case 1:
+      return "error - can only add strings to an array";
+      break;
+    default:
+      array.unshift(string);
+      return array;
+      break;
+  }
+};
