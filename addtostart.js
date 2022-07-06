@@ -11,3 +11,4 @@ const addToStart = (string, array) => {
     return array;
   }
 };
+console.log(addToStart("Tess", students));
