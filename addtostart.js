@@ -29,3 +29,4 @@ const addToStart = (string, array) => {
       break;
   }
 };
+console.log(addToStart("Thelma", students));
