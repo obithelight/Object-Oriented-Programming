@@ -13,3 +13,4 @@ const elementChecker = (word, array) => {
   }
 };
 
+console.log(elementChecker("Jane", house));
