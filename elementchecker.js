@@ -3,3 +3,5 @@ Create a function named elementChecker that will check a passed in array if at l
 */
 
 let house = [];
+let students = ["Ada", "Amaka", "Amanda", "Amara"];
+
