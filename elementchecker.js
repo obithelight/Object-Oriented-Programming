@@ -13,6 +13,6 @@ const elementChecker = (word, array) => {
   }
 };
 
-console.log(elementChecker("Jane", house));
-console.log(elementChecker("Ada", students));
-console.log(elementChecker("Jane", students));
+console.log(elementChecker("Jane", house)); //"error - passed in array is empty"
+console.log(elementChecker("Ada", students)); //true
+console.log(elementChecker("Jane", students)); //false
