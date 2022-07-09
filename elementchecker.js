@@ -15,3 +15,4 @@ const elementChecker = (word, array) => {
 
 console.log(elementChecker("Jane", house));
 console.log(elementChecker("Ada", students));
+console.log(elementChecker("Jane", students));
