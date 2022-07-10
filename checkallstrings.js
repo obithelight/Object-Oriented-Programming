@@ -10,3 +10,4 @@ if every element in the array ends in the passed in character, return true. Othe
 Use the students array and the character "e" as arguments when testing.
 */
 
+let house = [];
