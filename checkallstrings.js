@@ -11,3 +11,5 @@ Use the students array and the character "e" as arguments when testing.
 */
 
 let house = [];
+let students = ["Ada", "Amaka", "Amanda", "Amara"];
+
