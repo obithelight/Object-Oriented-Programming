@@ -13,3 +13,19 @@ Use the students array and the character "e" as arguments when testing.
 let house = [];
 let students = ["Ada", "Amaka", "Amanda", "Amara"];
 
+const checkAllStringsEnding = (array, char) => {
+  if (array.length === 0) {
+    return "error - array must NOT be empty";
+  }
+  if (array.some((element) => typeof element !== "string")) {
+    return "error - all array elements must be strings";
+  }
+  if (typeof char !== "string") {
+    return "error - 2nd argument must be of data type string";
+  }
+  if (char.length > 1) {
+    return "error - 2nd argument must be a single character";
+  }
+  return array.every((element) => element[element.length - 1] === char);
+};
+
