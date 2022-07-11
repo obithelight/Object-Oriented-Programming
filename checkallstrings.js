@@ -30,4 +30,5 @@ const checkAllStringsEnding = (array, char) => {
   return array.every((element) => element[element.length - 1] === char);
 };
 
-console.log(checkAllStringsEnding(students, "a"));
+console.log(checkAllStringsEnding(house, "a")); //"error - array must NOT be empty"
+
