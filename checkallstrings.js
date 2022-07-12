@@ -12,7 +12,7 @@ Use the students array and the character "e" as arguments when testing.
 
 let house = [];
 let students = ["Ada", "Amaka", "Amanda", "Amara"];
-let movies = ["Mone Heist", 24, "Prison Break", "Black Panther"];
+let movies = ["Money Heist", 24, "Prison Break", "Black Panther"];
 
 const checkAllStringsEnding = (array, char) => {
   if (array.length === 0) {
