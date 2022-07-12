@@ -32,4 +32,5 @@ const checkAllStringsEnding = (array, char) => {
 
 console.log(checkAllStringsEnding(house, "a")); //"error - array must NOT be empty"
 console.log(checkAllStringsEnding(movies, "a")); //"error - all array elements must be strings"
+console.log(checkAllStringsEnding(students, 10)); //"error - 2nd argument must be of data type string"
 
