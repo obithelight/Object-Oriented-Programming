@@ -3,3 +3,5 @@ Create a function named stringLengthSorter that will take in an array of strings
 */
 
 let students = ["Ifeanyi", "Adanna", "Onyinye", "Chidi", "Ugochi"];
+let family = ["father", "mother", "brother", "sister", "cousin"];
+
