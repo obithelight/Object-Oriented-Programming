@@ -5,3 +5,10 @@ Create a function named stringLengthSorter that will take in an array of strings
 let students = ["Ifeanyi", "Adanna", "Onyinye", "Chidi", "Ugochi"];
 let family = ["father", "mother", "brother", "sister", "cousin"];
 
+const stringLengthSorter = (array) => {
+  if (array.some((element) => typeof element !== "string")) {
+    return "error - all array elements must be strings";
+  }
+  return array.sort((elementA, elementB) => elementA.length - elementB.length);
+};
+
