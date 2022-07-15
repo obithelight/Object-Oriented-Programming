@@ -12,3 +12,4 @@ const stringLengthSorter = (array) => {
   return array.sort((elementA, elementB) => elementA.length - elementB.length);
 };
 
+console.log(stringLengthSorter(students)); //["Chidi","Adanna","Ugochi","Ifeanyi","Onyinye"]
