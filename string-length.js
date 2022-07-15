@@ -13,3 +13,4 @@ const stringLengthSorter = (array) => {
 };
 
 console.log(stringLengthSorter(students)); //["Chidi","Adanna","Ugochi","Ifeanyi","Onyinye"]
+console.log(stringLengthSorter(family)); //["father","mother","sister","cousin","brother"]
