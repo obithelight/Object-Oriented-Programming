@@ -14,3 +14,27 @@ let emptyArr = [];
 let family = ["father", "mother", "brother", "sister", "cousin"];
 let students = ["Adamma", "Adaugo", "Chidi", "Nnenna", "Amaka"];
 
+const startsWithCounter = (array, char) => {
+  if (array.length === 0) {
+    return "error - array must NOT be empty";
+  }
+  if (array.some((element) => typeof element !== "string")) {
+    return "error - all array elements must be strings";
+  }
+  if (typeof char !== "string") {
+    return "error - 2nd argument must be of data type string";
+  }
+  if (char.length > 1) {
+    return "error - 2nd argument must be a single character";
+  }
+  let result = 0;
+
+  array.forEach((element) => {
+    if (element[0].toLowerCase() === char[0].toLowerCase()) {
+      result++;
+    }
+  });
+
+  return result;
+};
+
