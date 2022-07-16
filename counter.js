@@ -38,3 +38,4 @@ const startsWithCounter = (array, char) => {
   return result;
 };
 
+console.log(startsWithCounter(emptyArr)); //"error - array must NOT be empty"
