@@ -10,3 +10,7 @@ return the number of elements in the array that start with the character argumen
 Use the students array and the character "J" as arguments when testing.
 */
 
+let emptyArr = [];
+let family = ["father", "mother", "brother", "sister", "cousin"];
+let students = ["Adamma", "Adaugo", "Chidi", "Nnenna", "Amaka"];
+
