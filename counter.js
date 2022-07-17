@@ -39,3 +39,4 @@ const startsWithCounter = (array, char) => {
 };
 
 console.log(startsWithCounter(emptyArr)); //"error - array must NOT be empty"
+console.log(startsWithCounter(students, 20)); //"error - 2nd argument must be of data type string"
