@@ -5,3 +5,5 @@ let students = ["Adamma", "Adaugo", "Chidi", "Nnenna", "Amaka"];
 const randomPicker = (array) => {
   return array[Math.floor(Math.random() * array.length)];
 };
+
+console.log(randomPicker(students));
